@@ -1,0 +1,143 @@
+/*
+LAYOUT: One-Column (Right) Fixed
+DESCRIPTION: Two-column 950px fixed layout with one sidebar right of content
+*/
+
+body {
+    min-width:960px;
+}
+#header {
+    position: relative;
+}
+#branding {
+    width:960px;
+    margin:0 auto;
+}
+#access {
+    position:relative;
+    overflow:hidden;
+}
+.menu {
+    width:960px;
+    margin:0 auto;
+    position: relative;
+}
+.izquierda {
+	width:219px;
+	display: inline-block;
+    position: relative;
+    float: left;
+}
+.izquierda h3 {
+	height:30px;
+	width:140px;
+/*	display:inline-block; */
+/*	background: url(/mailing.png) center no-repeat; */
+}
+#busca {
+	height: 23px;
+width: 170px;
+float: right;
+border: 0px solid white;
+margin: 5px 0px 0px 0px;
+}
+#busca input{
+/*display:none;*/
+font-family: Verdana, Geneva, sans-serifArial Black;
+text-align: left;
+/*margin: -4px 4px 8px 32px;*/
+vertical-align: middle;
+background: none;
+color: #7c663e;
+}
+#s{
+/*display:none;*/
+font-size: 11px;
+border: none;
+/*padding: 9px 6px 0px 17px;*/
+margin-right: 3px;
+width: 120px;
+}
+#main {
+    width:960px;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+#vidhome {
+	background: url(/framevideo.jpg) top center no-repeat;
+	width: 900px;
+	height: 518px;
+	color: #630;
+    font-size:18px;
+    font-style: normal;
+    padding:18px;
+	margin:0px;
+}
+#container {
+    /*width:560px;*/
+    width: 630px;
+    float:left;
+}
+#containerOax {
+    width:940px;
+    float:left;
+}
+
+#content {
+    margin:0 0 0 10px;
+    width:620px;
+    overflow:hidden;
+}
+.main-aside {
+	margin-top:10px;
+    width:360px;
+    float:right;
+    position:relative;
+    right:10px;
+}
+#secondary {
+    clear:right;
+}
+#footer {    
+    clear:both;
+}
+#subsidiary {
+    width:940px;
+    margin:0 auto;
+    overflow:hidden;
+}
+#subsidiary .aside {
+    width:267px;
+    float:left;
+    margin:0 20px 0 0;
+}
+#subsidiary #third {
+    margin:0px 0px 0px -20px;
+}
+#siteinfo {
+    clear:both;
+    width:940px;
+    margin:0 auto;
+}
+
+/* =Page Templates
+-------------------------------------------------------------- */
+
+/*
+    Full Width Template
+*/
+
+.page-template-template-page-fullwidth-php #container {
+	margin:0;
+	width:940px;
+}
+
+.page-template-template-page-fullwidth-php #content {
+	margin: 0 0 0 10px;
+	width:940px;
+}
+
+.page-template-template-page-fullwidth-php #comments {
+    width:540px;
+}

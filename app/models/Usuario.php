@@ -1,0 +1,1 @@
+class Usuario extends Eloquent {}
